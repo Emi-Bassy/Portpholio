@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="ja" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portpholit</title>
+        <link rel="stylesheet" href="{% static 'css/index.css' %}"/>
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="about/">About</a></li>
+                    <li><a href="contact/">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <p>This is Emi's portpholio site</p>
+        <p>次にやること<br>
+            2 : Github上にポートフォリオ用のリポジトリ追加<br>
+            3 : about のflexboxなんとかする<br>
+            4 : contact の画像配置と大きさ揃える</p>
+        
+
+        <h1 class="title">Works</h1>
+        <div class="work_container">
+            <p>Add work, at least 3</p>
+        </div>
+        <h1 class="title">Skills</h1>
+        <div class="skill_container">
+            <div class="skill_item">
+                <h3>HTML/CSS</h3>
+                <p>NAVITIMEインターンでのWebサイト開発、
+                    Waffle campで講師として中高生に教えた</p>
+            </div>
+            <div class="skill_item">
+                <h3>JavaScript</h3>
+                <p>jQueryを大学でのチーム開発で使用</p>
+            </div>
+            <div class="skill_item">
+                <h3>Python</h3>
+                <p>データ解析、Web開発等幅広く使用</p>
+            </div>
+            <div class="skill_item">
+                <h3>C</h3>
+                <p>
+                    OS,組み込みプログラミングの用途で使用
+                </p>
+            </div>
+            <div class="skill_item">
+                <h3>Java</h3>
+                <p>Androidアプリ開発、デザインパターン学習時に使用      
+                </p>
+            </div>
+            <div class="skill_item">
+                <h3>Swift</h3>
+                <p>メンターとして小学生にiPhoneアプリ開発の基礎を教える</p>
+            </div>
+            <div class="skill_item">
+                <h3>SQLite</h3>
+                <p>チーム開発, サポーターズ主催"はじめてのハッカソン"で使用</p>
+            </div>
+            <div class="skill_item">
+                <h3>Django</h3>
+                <p>本Webサイト,チーム開発で使用</p>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+
+<!-- What to write about Skill
+　　　・Frontend : HTML, CSS, JavaScript
+     ・Backend : Python, C, Java, Django, Swift, SQLite -->
