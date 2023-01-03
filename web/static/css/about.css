@@ -20,23 +20,24 @@
 }
 
   /* 経歴欄 */
-.contents_container {
-    /* display: flex; */
-    flex-wrap: wrap;
-    width: 400px;
-}
-.content_aboutme{
+.content_aboutme {
     margin: 5px;
     padding: 5px 10px;
     border: solid;
     border-radius: 10px;
     border-color: #224B8F;
 }  
+.contents_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 20px;
+}
 .content_experience{
-    margin: 5px;
+    margin: 10px;
     padding: 5px 10px;
     border: solid;
     border-radius: 10px;
     border-color: #224B8F;
-    width: 200px;
+    width: 1000px;
 }  

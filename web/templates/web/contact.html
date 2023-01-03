@@ -19,8 +19,8 @@
             </nav>
         </header>
         <div class="contact">
-            <h2>Email</h2>
-            <img src="{% static 'img/icon_mail.png' %}">
+            <h2 class="title">Email</h2>
+            
             <!-- <img src="{% static 'img/icon_mail.png' %}"> -->
             <script type="text/javascript">
                 <!--
@@ -39,20 +39,18 @@
                 converter(String.fromCharCode(104,98,103,104,108,116,113,96,45,100,108,104,47,54,47,52,63,102,108,96,104,107,45,98,110,108,
                 62,114,116,97,105,100,98,115,60)) 
                 + escape(k_2) + "'");} 
-                document.write('<a href=JavaScript:mail_to("","")>G-mail<\/a>');
+                document.write('<a href=JavaScript:mail_to("","")><img src="{% static 'img/icon_mail.png' %}"><\/a>');
                 //-->
                 </script>
                 
         </div>
         <div class="contact">
-            <h2>GitHub</h2>
-            <img src="{% static 'img/github-mark.png' %}">
-            <a href="https://github.com/Emi-Bassy">GitHub</a>
+            <h2 class="title">GitHub</h2>
+            <a href="https://github.com/Emi-Bassy"><img src="{% static 'img/icon_github.png' %}"></a>
         </div>
         <div class="contact">
-            <h2>Linkedin</h2>
-            <img src="{% static 'img/icon_linkedin.png' %}">
-            <a href="https://www.linkedin.com/in/emi-ichimura-367a06244/">Linkedin</a>
+            <h2 class="title">Linkedin</h2>
+            <a href="https://www.linkedin.com/in/emi-ichimura-367a06244/"><img src="{% static 'img/icon_linkedin.png' %}"></a>
         </div>
     </body>
 </html>

@@ -18,6 +18,11 @@
   color: #fff;
   text-decoration: none;
 }
+/* 見出し */
+h1 {
+  width: 50px;
+  margin: 0 auto;
+}
 
 /* スキル欄 */
 .skill_container {
