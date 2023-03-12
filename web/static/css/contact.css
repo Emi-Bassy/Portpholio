@@ -5,25 +5,40 @@
     background-color: #224B8F;
     padding-top: 15px;
     box-sizing: border-box;
-  }
-  .navigation ul {
+}
+.navigation ul {
     display: flex;
     list-style: none;
     margin: 0;
-  }
-  .navigation li {
+}
+.navigation li {
     margin-right: 55px;
-  }
-  .navigation a {
+}
+.navigation a {
     color: #fff;
     text-decoration: none;
-  }
+}
 
-  /* 画像 */
-  .title {
-    
-  }
-  img {
+/* テキスト */
+p {
+  text-align: center;
+  font-size: 20px;
+  margin: 30px;
+}
+
+.contact {
+  display: flex;
+}
+.contact_experience {
+  margin: 10px;
+  padding: 40px 100px;
+  border-radius: 20px;   
+}
+/* 画像 */
+.title { 
+  text-align: center;
+}
+img {
     width: 100px;
     height: 100px;
-  }
+}
