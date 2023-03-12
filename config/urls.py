@@ -18,7 +18,6 @@ from django.urls import path, include
 from web import views as web_views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('ichimura_emi_portpholio/', include('web.urls')), 
+    path('', include('web.urls')), 
     # ↑sここで web/ にアクセスされた後全てをつなぐ
 ]
