@@ -23,6 +23,21 @@ h1 {
   width: 50px;
   margin: 0 auto;
 }
+/* 作品欄 */
+.work_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: auto;
+}
+.work_item {
+  margin: 10px;
+  padding: 5px 10px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #224B8F;
+  width: 1000px;
+}
 
 /* スキル欄 */
 .skill_container {
